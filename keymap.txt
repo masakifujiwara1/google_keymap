@@ -28,7 +28,6 @@ Composition	Ctrl x	MoveCursorToEnd
 Composition	Ctrl z	Cancel
 Composition	Delete	Delete
 Composition	Down	MoveCursorToEnd
-Composition	Eisu	ToggleAlphanumericMode
 Composition	End	MoveCursorToEnd
 Composition	Enter	Commit
 Composition	ESC	Cancel
@@ -83,7 +82,6 @@ Conversion	Ctrl x	ConvertNext
 Conversion	Ctrl z	Cancel
 Conversion	Delete	Cancel
 Conversion	Down	ConvertNext
-Conversion	Eisu	ToggleAlphanumericMode
 Conversion	End	SegmentFocusLast
 Conversion	Enter	Commit
 Conversion	ESC	Cancel
@@ -115,19 +113,17 @@ Conversion	Shift Up	ConvertPrevPage
 Conversion	Space	ConvertNext
 Conversion	Tab	PredictAndConvert
 Conversion	Up	ConvertPrev
-DirectInput	Eisu	IMEOn
 DirectInput	F13	IMEOn
 DirectInput	Hankaku/Zenkaku	IMEOn
-DirectInput	Henkan	Reconvert
+DirectInput	Henkan	IMEOn
 DirectInput	Hiragana	IMEOn
 DirectInput	Katakana	IMEOn
 Precomposition	Backspace	Revert
 Precomposition	Ctrl Backspace	Undo
 Precomposition	Ctrl Shift Space	InsertFullSpace
-Precomposition	Eisu	ToggleAlphanumericMode
 Precomposition	Hankaku/Zenkaku	IMEOff
 Precomposition	Hiragana	InputModeHiragana
-Precomposition	Henkan	Reconvert
+Precomposition	Henkan	InputModeHiragana
 Precomposition	Katakana	InputModeFullKatakana
 Precomposition	Muhenkan	InputModeSwitchKanaType
 Precomposition	Shift Muhenkan	ToggleAlphanumericMode
@@ -136,7 +132,6 @@ Precomposition	Space	InsertSpace
 Prediction	Ctrl Delete	DeleteSelectedCandidate
 Suggestion	Down	PredictAndConvert
 Suggestion	Shift Enter	CommitFirstSuggestion
-DirectInput	Muhenkan	IMEOn
 Precomposition	Muhenkan	IMEOff
 Composition	ASCII	InsertCharacter
 Composition	Kanji	IMEOff
